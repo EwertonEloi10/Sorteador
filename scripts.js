@@ -8,6 +8,11 @@ document.querySelector(".sortear").addEventListener("click", function () {
     if (min >= max) {
         alert("Valor inicial tem que ser MENOR que o final");
     } else {
+
+        // Deixa o espaço do texto em branco/vazio
+        const txt = document.querySelector(".p1");
+        txt.innerHTML = "";
+
         // Gera o número sorteado
         const intervalo = setInterval(function() {
             // Gera o número sorteado
@@ -29,6 +34,8 @@ document.querySelector(".sortear").addEventListener("click", function () {
         // Para o intervalo após 3 segundos
         setTimeout(function() {
             clearInterval(intervalo);
+
+            //adiciona um novo texto após o número ser sorteado
             const txt = document.querySelector(".p1");
             txt.innerHTML = "HOJE É SEU DIA DE SORTE!";
             txt.style.color = '#ff0000';         // Muda a cor do texto
