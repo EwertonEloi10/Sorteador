@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    cursor: default;
+}
+
+body {
+    background-image: url("./assets/783B.gif");
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /*preenche toda a tela*/
+    background-position: center;
+    height: 100vh; /*preenche toda a tla*/
+    width: 100%;
+    display: flex;
+   
+}
+
+main {
+    background-color: rgb(18, 18, 18);
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 50px 10px;
+    border: solid 4px rgba(147,146,146,0);
+    box-shadow: 0 0 150px rgba(147, 146, 146, 0.23); /*adiciona uma sombra*/
+    margin-top: 8%;
+    opacity: 0.9;
+    
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+h1{ 
+    color: #ffffff;
+    font-size: 50px;
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 25px;
+
+}
+
+.p1 {
+    color:#ffffff;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.numInicial, .numFinal{
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    background: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    cursor:text;
+}
+
+.sortear{
+    border-radius: 5px;
+    width: 80%;
+    height: 35px;
+    border: none;
+    color: #ffffff;
+    background-color: #302e2e;
+    font-size: 23px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.sortear:hover{
+    opacity: 0.7;
+}
+
+.sortear:active{
+    background-color: red;
+}
+
+
+.p2{
+    color: red;
+    margin-left: 18%;
+    margin-top: 3%;
+}
